@@ -51,7 +51,7 @@ function Projects() {
               <div className="no-padding portfolio_container clearfix">
                 {random.map((post) => (
                   <div className="col-md-4 col-sm-6  fashion app">
-                    <a href="single-project.html" className="portfolio_item">
+                    <div className="portfolio_item">
                       <img
                         src={
                           "https://myportfoliobackend1.herokuapp.com/uploads/" +
@@ -70,7 +70,7 @@ function Projects() {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 ))}
               </div>
