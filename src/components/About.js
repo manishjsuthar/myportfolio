@@ -19,7 +19,9 @@ function About() {
           </div>
           <div className="col-md-8">
             <h3 className="uppercase">About Me </h3>
-            <h5>Intro</h5>
+            <Link to="/projectadmin">
+              <h5>Intro</h5>
+            </Link>
             <div className="h-30" />
             <p>
               My name is Manish Suthar. I am currently pursuing Btech degree
